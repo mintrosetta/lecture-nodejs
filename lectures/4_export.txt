@@ -1,0 +1,5 @@
+
+    exports vs module.exports 
+        ถ้าเราใช้ exports ธรรมดา nodejs จะหา function ที่เรา export ออกไป
+        ไม่เจอ เพราะไม่ได้อยู่ใน module อยู่แล้ว
+        ควรจะใช้ module.exports
