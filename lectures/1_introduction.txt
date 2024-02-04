@@ -1,0 +1,18 @@
+
+NodeJS
+    เป็น open-source cross-platform javascript runtime environment
+    สามารถทำงานได้ทุก platform
+
+Chrome V8 Engine
+    โดยปกติ JavaScript จะไม่สามารถรันบนคอมพิวเตอร์ได้โดยตรง
+    ต้องทำงานผ่าน browser เท่านั้น
+
+    โดย JavaScript Engine จะ cevert js code ที่เราเขียนไปเป็น
+    machine code ที่คอมพิวเตอร์สามารถอ่านเข้าใจได้
+
+What can build with NodeJS ?
+    Backend service
+    Real-time application
+    Streaming services
+    cli tools
+    multiplayer games
