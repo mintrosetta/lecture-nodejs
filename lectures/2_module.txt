@@ -3,6 +3,7 @@ Modules
     โดยเราจะมี module ทั้งหมดอยู่ 3 แบบ
         local modules
             เป็น module ที่เราสร้างเองใน application ของเรา
+            โดยแต่ละไฟล์ ก็จะแยกแต่ละ module กันอยู่แล้ว
         built-in modules
             เป็น module ที่่มากับ nodejs อยู่แล้ว
         thrid party module 

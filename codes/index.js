@@ -1,5 +1,3 @@
-let x = 10;
-let y = 10;
-let z = x + y;
+const app = require("./app.js"); // โหลด app.js มาใส่ใน index.js
 
-console.log(z);
+console.log("Hello World");
