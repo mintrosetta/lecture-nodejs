@@ -1,4 +1,4 @@
-(function() {
+(function(message) {
     const superHero = "batman";
-    console.log(superHero);
-})()
+    console.log(message, superHero);
+})("Hello")
