@@ -1,1 +1,3 @@
-// https://www.youtube.com/watch?v=Es7SzBBc6qE&list=PLC3y8-rFHvwh8shCMHFA5kWxD9PaPwxaY&index=17
+const data = require('./data.json');
+
+console.log(data.name);
