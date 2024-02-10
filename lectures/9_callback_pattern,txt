@@ -1,0 +1,7 @@
+
+    Callback Pattern Programming
+        ใน JavaScript, function เป็นส่วนหนึ่งของ class object
+
+        สามารถส่ง function เข้าไปใน argument ได้
+
+        
