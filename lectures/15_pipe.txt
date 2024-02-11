@@ -1,0 +1,6 @@
+
+    Pipes
+        .pipe() เป็น method ใน NodeJS ที่ใช้เชื่อมต่อการส่งผ่านข้อมูลระหว่าง streams
+        โดยมักใช้เพื่อส่งผ่านข้อมูลจาก readableStream ไปหา writeableStream
+
+        [readable stream] ---> <pipe1> ---> <pipe2> ---> [writeable steam] ---> [file]
