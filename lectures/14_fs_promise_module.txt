@@ -1,0 +1,3 @@
+
+    FS Promise Module
+        เป็นการอ่านไฟล์แบบ Promise สามารถใช้งาน async/await ได้
