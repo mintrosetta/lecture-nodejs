@@ -14,7 +14,7 @@ const server = http.createServer((req, res) => {
 
         โดยใน code นี้ จะเป็นการค่อย ๆ อ่านข้อมูล index.html และส่งไปที่ client ทีละ chunk
     */
-    fs.createReadStream(__dirname + "/index.html", {
+    fs.createReadStream(__dirname + "/htmlResponse.html", {
         encoding: "utf-8",
         highWaterMark: 1
     }).pipe(res);
