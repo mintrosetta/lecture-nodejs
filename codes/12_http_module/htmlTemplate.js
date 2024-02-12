@@ -19,5 +19,3 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(3000, () => console.log("Server listing at http://localhost:3000"));
-
-// https://www.youtube.com/watch?v=S1QOZU5jOcw&list=PLC3y8-rFHvwh8shCMHFA5kWxD9PaPwxaY&index=35
