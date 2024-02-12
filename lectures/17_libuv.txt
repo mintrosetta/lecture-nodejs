@@ -1,0 +1,9 @@
+
+    Libuv
+        เป็น cross platform open source library ที่ถูกเขียนด้วย c 
+
+        Why ?
+            ใช้สำหรับจัดการกับ asynchronous non-blocking ใน nodejs
+
+        How ?
+            ใช้ Thread pool และ Event loop
