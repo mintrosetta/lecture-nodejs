@@ -1,0 +1,20 @@
+
+    V8 Engine
+        ประกอบด้วย
+            Memory heap
+                เมื่อประกาศตัวแปร ข้อมูลจะถูกเก็บลงที่นี่
+
+            Call stack
+                เมื่อฟังชันก์ถูกเียกใช้งาน จะถูกเก็บลงที่นี่
+
+    เมื่อใดก็ตามที่มีการใช้งาน async, function จะถูกดันไปที่ libuv
+    เพื่อทำให้มั่นใจว่า thread หลักจะไม่ถูกบล็อค
+    
+    Architecture
+        V8 Engine
+            Memory Heap 
+            Call stack 
+        libuv
+
+    Event loop
+        https://www.youtube.com/watch?v=M3sbOSJvhxg&list=PLC3y8-rFHvwh8shCMHFA5kWxD9PaPwxaY&index=43
